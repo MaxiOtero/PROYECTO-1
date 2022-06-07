@@ -13,6 +13,9 @@ body {
     border-radius: 10px;
     border: 1px solid #ffffff2e;
 }
+.formadepago {
+background: rgba( 74, 13, 179, 0.2 );
+}
 
 .cont {
   display: grid;
@@ -26,6 +29,7 @@ body {
 }
 .cuerpo1 {
   grid-area: cuerpo1;
+  background: rgba( 74, 13, 179, 0.2 );
 }
 
 
@@ -117,6 +121,8 @@ p {
   display: flex;
   padding: 2px;
   justify-content: center;
+  background-color: none;
+  
 
 }
 
@@ -131,6 +137,13 @@ p {
   border: 1px;
   flex-direction: column;
   padding: 2px;
+}
+.h3 {
+  font-family: 'Volkhov', serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 5px;
 }
 
 .impresiones { 
